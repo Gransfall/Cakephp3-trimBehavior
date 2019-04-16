@@ -16,7 +16,8 @@ The recommended way to install composer packages is:
   composer require gransfall/trim-behavior
 ```
 or add the plugin to your project's ``` composer.json ``` like this:
-```
+
+```javascript
     {
         "require": {
             "gransfall/trim-behavior": "dev-master"
@@ -24,13 +25,15 @@ or add the plugin to your project's ``` composer.json ``` like this:
     }
 ```
 
-##Usage
+## Usage
+
 To start sanitizing your data, you need to attach the behavior to your table in the initialization function and pass in the fields that you want to be sanitized: 
-```
+
+```php
     $this->addBehavior('Gransfall/TrimBehavior.Trim');
 ```
 
-##License
+## License
 
 The MIT License (MIT)
 
